@@ -7,6 +7,11 @@
 	outline: none;
 }
 
+p, h1, h2, h3, span {
+  font-family: 'Work Sans', sans-serif;
+}
+
+
 .header {
     display:flex;
     flex-direction: row;
@@ -40,13 +45,13 @@
 }
 
 .slider-1{
-    background-color: blue;
+
     max-width: 100%;
     max-width: 100%;
 }
 
 .slider-2{
-    background-color: red;
+
     max-width: 100%;
     max-height: 100%;
 }
@@ -70,6 +75,11 @@
 .counter{
   text-align: center;
   font-size: 100px;
+}
+
+.logo-frame {
+  width: 50px;
+  height: auto;
 }
 
 /*////////HOVER //////*/
@@ -236,7 +246,7 @@
     transform: translate3d(0,-30px,0);
   }
   
-  figure.effect-honey h2 i {
+  figure.effect-honey h2 i img {
     font-style: normal;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -253,7 +263,7 @@
   
   figure.effect-honey:hover figcaption::before,
   figure.effect-honey:hover h2,
-  figure.effect-honey:hover h2 i {
+  figure.effect-honey:hover h2 i img{
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
