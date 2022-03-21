@@ -142,9 +142,14 @@ li {
     flex-wrap: wrap;
 }
 
+.jobs-text {
+  margin: 0 auto
+}
+
 .text-jobs {
     max-width:600px;
     padding:30px;
+
 }
 
 
@@ -160,15 +165,17 @@ li {
   max-width: 1024px;
   list-style: none;
   text-align: center;
-  height: 100vh;
-  overflow-x: hidden;
-overflow-y: auto;
+ margin-right:0px !important
 }
+
+::-webkit-scrollbar {
+  display: none;
+  }
 
 .grid figure {
   position: relative;
   float: left;
-  overflow: hidden;
+  
   max-height: auto;
   width: 50%;
   background: #3085a3;
