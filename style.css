@@ -265,7 +265,30 @@ figure.effect-honey img {
   height: auto;
 }
 
+/*contact*/
 
+.contact {
+  width: 75%;
+  height: auto;
+  margin: 0 auto
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+input {
+  border-bottom: 1px solid black;
+  margin: 30px 0px;
+  padding: 10px 15px;
+  width: 420px;
+  height: auto;
+}
 
 
 /*////////HOVER //////*/
